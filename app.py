@@ -16,4 +16,4 @@ if __name__ == "__main__":
 
     app.layout = layout.layout
     callbacks.register_callbacks(app)
-    app.run_server(debug=True, port=8050)
+    app.run(debug=True, port=8050)
